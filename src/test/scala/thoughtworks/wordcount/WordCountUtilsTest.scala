@@ -7,7 +7,11 @@ import thoughtworks.DefaultFeatureSpecWithSpark
 
 class WordCountUtilsTest extends DefaultFeatureSpecWithSpark {
   feature("Split Words") {
-    ignore("test splitting a dataset of words by spaces") {}
+    scenario ("test splitting a dataset of words by spaces") {
+
+
+
+    }
 
     ignore("test splitting a dataset of words by period") {}
 
@@ -19,7 +23,13 @@ class WordCountUtilsTest extends DefaultFeatureSpecWithSpark {
   }
 
   feature("Count Words") {
-    ignore("basic test case") {}
+    ignore("basic test case") {
+
+//      import spark.implicits._
+//
+//      val data_set = Seq("Lorena Maira Maira Lorena").toDS()
+//      data_set.countByWord(spark)
+    }
 
     ignore("should not aggregate dissimilar words") {}
 
